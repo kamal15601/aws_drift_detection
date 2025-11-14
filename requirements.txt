@@ -1,0 +1,41 @@
+# Core Flask dependencies
+Flask==2.3.3
+Werkzeug==2.3.7
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+itsdangerous==2.1.2
+click==8.1.7
+
+# For timezone handling
+pytz==2023.3
+
+# For Azure integration
+azure-storage-blob==12.17.0
+azure-identity==1.13.0
+azure-keyvault-secrets==4.7.0
+
+# For AWS integration
+boto3==1.34.0
+botocore==1.34.0
+
+# For background task scheduling
+APScheduler==3.10.4
+
+# HTTP requests for webhooks
+requests==2.31.0
+
+# Date/time utilities
+python-dateutil==2.8.2
+
+# Configuration management
+PyYAML==6.0.1
+
+# Cryptography for secure operations
+cryptography==41.0.7
+
+# For production deployment
+gunicorn==21.2.0
+
+# Development and testing
+pytest==7.4.3
+pytest-flask==1.3.0
