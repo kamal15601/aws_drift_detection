@@ -92,7 +92,7 @@ except Exception as e:
         secret_key = 'fallback-secret-key-for-azure'
         data_dir = 'data'
         debug = False
-        port = 5000
+        port = 8080
         host = '0.0.0.0'
         enable_auto_scan = False
     
@@ -961,3 +961,4 @@ if __name__ == '__main__':
         port=port,
         debug=app_config.debug
     )
+
