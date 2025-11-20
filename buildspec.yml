@@ -11,10 +11,8 @@ phases:
     commands:
       - echo "Preparing Flask app for deployment"
       - mkdir -p output
-      - ls -al   # Debug: list files in root
-      - cp main.py requirements.txt output/
-      - ls -al output   # Debug: confirm files copied
-      - if [ -d ".deployment" ]; then cp -r .deployment output/; fi
+      - cp -r * output/   # Copy everything from root
+      - ls -al output     # Debug: confirm files copied
 artifacts:
   files:
     - output/**/*
